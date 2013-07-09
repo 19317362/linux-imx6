@@ -163,7 +163,7 @@ MODULE_PARM_DESC(macaddr, "FEC Ethernet MAC address");
 /* Pause frame feild and FIFO threshold */
 #define FEC_ENET_FCE		(1 << 5)
 #define FEC_ENET_RSEM_V		0x84
-#define FEC_ENET_RSEM_V_TO1	0x10
+#define FEC_ENET_RSEM_V_TO1	0x1
 #define FEC_ENET_RSFL_V		16
 #define FEC_ENET_RSFL_V_TO1     0x20
 #define FEC_ENET_RAEM_V		0x8
